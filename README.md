@@ -32,13 +32,22 @@ Accurately predicting rocket landing success can help reduce costs and improve d
 ### 4. SQL Analysis
 
 * Querying structured data for insights
+* Note: SQL analysis was preformed within Jupyter Notebook embedded SQL queries
 
 ### 5. Data Visualization
 
 * Interactive maps (Folium)
 * Charts and graphs
 
-### 6. Machine Learning
+### 6. Interactive Dashboard
+
+* A Dash application was built to visualize SpaceX launch trends
+  Run locally:
+  ```bash
+  python app/dash_app.py
+  ```
+
+### 7. Machine Learning
 
 * Classification models to predict launch success
 * Model comparison and evaluation
@@ -53,6 +62,7 @@ Accurately predicting rocket landing success can help reduce costs and improve d
 * SQL
 * Plotly / Folium
 * Jupyter Notebooks
+* Dash
 
 ---
 
@@ -92,9 +102,11 @@ jupyter notebook
 ```
 IBM_DS_Capstone_Project/
 │
+├── app/
 ├── data/
 ├── notebooks/
 ├── images/
+├── reports/
 ├── README.md
 └── requirements.txt
 ```
