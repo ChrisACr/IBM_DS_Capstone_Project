@@ -105,7 +105,6 @@ IBM_DS_Capstone_Project/
 ├── app/
 ├── data/
 ├── notebooks/
-├── images/
 ├── reports/
 ├── README.md
 └── requirements.txt
