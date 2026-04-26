@@ -58,8 +58,8 @@ Accurately predicting rocket landing success can help reduce costs and improve d
 
 ## Results
 
-* Best model: (Fill this in)
-* Accuracy: XX%
+* Best model: Decision tree
+* Accuracy: 83%
 * Key factors influencing success:
 
   * Payload mass
@@ -73,8 +73,6 @@ Accurately predicting rocket landing success can help reduce costs and improve d
 * Launch site success rates
 * Payload vs outcome
 * Interactive map of launch locations
-
-(Add screenshots to `/images` and link them here)
 
 ---
 
@@ -97,7 +95,6 @@ IBM_DS_Capstone_Project/
 ├── data/
 ├── notebooks/
 ├── images/
-├── sql/
 ├── README.md
 └── requirements.txt
 ```
